@@ -6,20 +6,12 @@ if mod:contains("IMWSEnergyDrinksNEW") then
 table.insert(BScats, {
 	category = "FoodB",
 	items = {
-		 "Base.IMWSEnergyDrink1",
+		 "Base.IMWSEnergyDrink",
 		 "Base.IMWSEnergyDrink2",
 		 "Base.IMWSEnergyDrink3",
 		 "Base.IMWSEnergyDrink4",
 		 "Base.IMWSEnergyDrink5",
-		 "Base.IMWSEnergyDrinkBottle",
-		 "Base.IMWSEnergyDrinkBottleWater",
-    },
-})
-
-table.insert(BScats, {
-	category = "ContL",
-	items = {
-		 "Base.IMWSEnergyDrinkBottle",
+		 "Base.IMWSEnergyDrink1",
     },
 })
 end
